@@ -1,0 +1,189 @@
+body{
+    font-family: oswald, Arial, Helvetica, sans-serif;
+}
+body, #topo{
+    height: 100%;
+}
+/* Começo topo*/
+#topo{
+    background: url(../imagens/fundoSobre.jpg) no-repeat, black;
+    background-size: cover;
+    height: 100%;
+    
+}
+#topo h1{
+    font-weight: 700;
+    color:  #9B9898;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+#topo span{
+    text-transform: uppercase;
+    color:  #9B9898;
+    letter-spacing: 0.5;
+
+}
+nav li{
+    margin-bottom: 10px;
+}
+.menu-principal{
+    font-size: 1.5em;
+    color: white;
+    padding: 5px 10px;
+}
+nav .menu-principal:hover{
+    border-left: 2px solid white;
+    color: #2A9EA7;
+    transition: 0.6s;
+}
+.redes-sociais a{
+    margin: 50px 10px 150px 10px;
+    width: 30px;
+    height: 30px;
+}
+/* Termina topo*/
+
+.div-separa{
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, rgb(75, 214, 110), #01a2ff);
+}
+
+
+/* Inicia conteudo*/
+/* Inicia a parte das fotos do autor*/
+#fotos-autor .linha{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 1px;
+    background-color: #2A9EA7;
+    
+
+}
+#fotos-autor .acompanha-foto{
+    width: 110px;
+    height: 110px;
+}
+#fotos-autor .foto-autor{
+    width: 200px;
+    
+}
+/*Finaliza fotos autor*/
+
+/* Inicio informações do autor*/
+
+#info-autor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px;
+
+}
+#info-autor .caixas{
+    border: 2px solid #2A9EA7;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+#info-autor p,li{
+    font-size: 1.1em;
+    color:#313030
+}
+#info-autor h2{
+    text-transform: uppercase;
+    color:#2A9EA7 ;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#info-autor .caixa-direita{
+    border: 2px solid #2A9EA7;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+#info-autor .formacao{
+    margin-top: 50px;
+    list-style-type: circle;
+}
+
+/* Fim das informaçõess do autor*/
+/* Inicio trabalhos realizados*/
+#trabalhos-realizados h1,h3{
+    color: #2A9EA7;
+    font-weight: 300;
+}
+
+#trabalhos-realizados h3{
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+#trabalhos-realizados h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#trabalhos-realizados img{
+    width: 400px;
+    height: 250px;
+}
+
+#trabalhos-realizados img:hover{
+    border-left: 4px;
+    border-right: 4px;
+    border-color: #2A9EA7;
+    border-style: solid;
+}
+
+#trabalhos-realizados p{
+    color:#313030;
+    padding-top: 10px;
+}
+/* Finaliza trabalhos realizados*/
+/* Inicio contato*/
+
+#contato h1{
+    color: #2A9EA7;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#contato input,textarea{
+    margin-top: 10px;
+    padding: 15px 10px;
+    border: 2px solid gray;
+}
+
+#contato input:hover, textarea:hover{
+    border: 2px solid #2A9EA7;
+}
+
+
+@media (max-width: 576px){
+    #topo .w-25 {
+        width: 40%!important;
+    }
+
+    #fotos-autor .acompanha-foto{
+        display: none;
+    }
+
+    #fotos-autor .controla-foto{
+        display: flex;
+        justify-content: center;
+    }
+
+    #fotos-autor .foto-autor{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width :767px){
+    #info-autor .caixa-direita{
+        margin: 0;
+    }
+}
+
+
+
