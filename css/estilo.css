@@ -13,13 +13,13 @@ body, #topo{
 }
 #topo h1{
     font-weight: 700;
-    color:  #9B9898;
+    color:  #2a9ea7;
     text-transform: uppercase;
     padding: 10px 20px;
 }
 #topo span{
     text-transform: uppercase;
-    color:  #9B9898;
+    color:  #7ba7ab;
     letter-spacing: 0.5;
 
 }
@@ -96,13 +96,18 @@ nav .menu-principal:hover{
 }
 #info-autor .caixa-direita{
     border: 2px solid #2A9EA7;
-    margin-bottom: 10px;
+    
     margin-left: 10px;
     padding: 20px;
 }
 #info-autor .formacao{
-    margin-top: 50px;
+    margin-top: 7px;
     list-style-type: circle;
+}
+#info-autor .formacao span{
+    color: #055160; 
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 /* Fim das informaçõess do autor*/
@@ -183,6 +188,7 @@ nav .menu-principal:hover{
     #info-autor .caixa-direita{
         margin: 0;
     }
+
 }
 
 
